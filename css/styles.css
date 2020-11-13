@@ -1,0 +1,81 @@
+#title{
+  background-color: #ff4c68;
+}
+#section1
+{
+  padding-top:3%;
+  padding-bottom:2%;
+  padding-left:15%;
+  padding-right:15%;
+}
+#photo
+{
+  padding-left:15%;
+}
+.ip
+{
+  transform:rotate(15deg);
+  width:70%;
+  border-radius: 25%;
+}
+@media (max-width:1028px)
+{
+.ip
+{
+  padding-top:20px;
+  transform:rotate(0deg);
+  width:70%;
+  border-radius: 25%;
+}
+}
+#title1
+{
+  font-size:2.5rem;
+  font-weight:bold;
+}
+#navbar
+{
+  padding-bottom:2.5rem;
+}
+#nav-item
+{
+  padding:0 15px;
+}
+#features{
+  padding:4% 15%;
+  background-color:#fff;
+  position:relative;
+  z-index: 1;
+}
+p
+{
+  color:#8f8f8f;
+}
+.feature-box
+{
+  padding:3%;
+  text-align:center;
+}
+.icon{
+  color:#ef8172;
+}
+h1,h2,h3{
+  font-family:"Montserrat-Bold";
+}
+/* Testimonial Section */
+h2
+{
+  font-size:3rem;
+  line-height: 1.5;
+}
+#testimonials{
+  padding:4% 15%;
+  text-align:center;
+  background-color:#ff4c68;
+  color:#fff;
+}
+.testimonial-image
+{
+  width:40%;
+  border-radius:100%;
+}
